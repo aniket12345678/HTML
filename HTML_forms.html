@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>HTML forms</title>
+</head>
+
+<body>
+    <h1>HTML forms</h1>
+    <form action="backend.php">
+        <div>
+            Name: <input type="text" name="myname">
+        </div><br>
+        <div>
+            E-mail: <input type="email" name="my_Email">
+        </div><br>
+        <div>
+            Roll no: <input type="number" name="roll_no">
+        </div><br>
+        <div>
+            School: <input type="text" name="school">
+        </div><br>
+        <div>
+            date and time: <input type="date" name="" id="insia">
+        </div><br>
+        <div>
+            <header>Gender</header>
+            Male:<input type="radio" name="mygender"> Female:<input type="radio" name="mygender">
+        </div><br>
+        <div>
+            <label for="family income">Family Income: </label>
+            <select name="my income" id="family income">
+                <option value="5 lakhs">none</option>
+                <option value="5 lakhs">less than 5 lakhs</option>
+                <option value="5 lakhs">5 lakhs</option>
+                <option value="5 lakhs">more than 5 lakhs</option>
+            </select>
+        </div><br>
+        <div>
+            Are you eligible:- Yes <input type="checkbox" name="elegible"> No <input type="checkbox"
+                name="elegible">
+        </div><br>
+        <div>
+            <header>Tell us something about yourself:</header><br>
+            <textarea name="text" id="" cols="50" rows="10"></textarea>
+        </div><br>
+        <div>
+            <input type="submit" value="Submit now"> <input type="reset" value="Reset now">
+        </div><br>
+    </form>
+</body>
+
+</html>
